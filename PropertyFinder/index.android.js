@@ -12,12 +12,12 @@ import {
   View
 } from 'react-native';
 
-class SampleAppMovies extends Component {
+class PropertyFinder extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Youshu!
+          Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('SampleAppMovies', () => SampleAppMovies);
+AppRegistry.registerComponent('PropertyFinder', () => PropertyFinder);
